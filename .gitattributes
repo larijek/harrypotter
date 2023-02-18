@@ -1,2 +1,189 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Filmes</title/>
+    <link rel="stylesheet" href="/style.css/style.css" />
+  </head>
+  <body>
+    <div class="inicio">
+      <p class="texto">Movies.Laj</p>
+      <div class="botao">
+     
+          <a class="home" href="/">Home</a>
+       
+          <a class="movies" href="/">Movies</a>
+      
+          <a class="anime" href="/">Anime</a>
+      </div>
+      </div>
+   
+  <div id="linha-horizontal"></div>
+<h1 class="titulo">Harry Potter e a Pedra Filosofal</h1>
+<div class="aba">
+    <a class="assistir" href="/">Watch</a>
+ 
+    <a class="baixar" href="/">Donwload</a>
+
+  </div>
+
+
+<img class="foto" src="/img/harry-potter-i-kamien-filozoficzny-2275-poster.jpg" alt="Harry Potter">
+
+
+<div class="container">
+<p class="historia">STORYLINE</p>
+<p class="explicativo">Harry Potter (Daniel Radcliffe) é um garoto órfão de 10 anos que vive infeliz com seus tios, os Dursley. Até que, repentinamente, ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente Harry é impedido de ler a carta por seu tio Válter (Richard Griffiths), mas logo ele recebe a visita de Hagrid (Robbie Coltrane), o guarda-caça de Hogwarts, que chega em sua casa para levá-lo até a escola. A partir de então Harry passa a conhecer um mundo mágico que jamais imaginara, vivendo as mais diversas aventuras com seus mais novos amigos, Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson</p>
+</div>
+<div class="grupo">
+<div class="informativo">
+  <div class="outro">Rating</div>
+  <div class="outro">Release</div>
+  <div class="outro">Genres</div>
+  <div class="outro">Duration</div>
+</div>
+<div class="itens">
+<div class="item">9,2</div>
+<div class="item">2001</div>
+<div class="item">Fantacy</div>
+<div class="item">2 hours</div>
+</div>
+</div>
+
+<div id="linha"></div>
+
+</html>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  background: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  color: rgba(203, 212, 220, 0.529);
+  margin: 40px;
+}
+
+div.inicio {
+  color: rgb(222, 222, 202);
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+#linha-horizontal {
+  width: 100%;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 100px;
+  float: left;
+  margin: 15px;
+}
+
+a.home,
+a.movies,
+a.anime,
+a.assistir,
+a.baixar {
+  background: rgb(158, 158, 158);
+  color: #103;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 15px;
+  width: 100px;
+  display: inline-block;
+  margin: 10px;
+  align-items: center;
+  align-items: center
+}
+
+a.baixar:hover,
+a.assistir:hover,
+a.anime:hover,
+a.movies:hover,
+a.anime:hover,
+a.home:hover {
+  background: rgb(17, 72, 91);
+  color: #103;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 15px;
+  width: 100px;
+ 
+}
+
+h1,
+div.aba {
+  text-align: center;
+}
+a.assistir {
+  background: rgb(94, 87, 155);
+  color: rgb(220, 220, 220);
+  align-items: center
+}
+
+a.baixar {
+  background: #rgb(220, 220, 200);
+  color: rgb(94, 87, 155);
+  align-items: center
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+.texto {
+  color: rgb(203, 193, 193);
+  font-size: 30px;
+  font-family: font-family: 'Poppins', sans-serif;;
+}
+
+
+div.container{
+  color: rgb(236, 234, 234);
+  
+}
+
+div.informativo{
+  display: inline-block;
+
+}
+
+div.itens{
+  color: rgb(255, 255, 255);
+  display: inline-block;
+
+}
+
+.historia{
+  color: rgb(150, 143, 168);
+}
+
+#linha{
+  width: 100%;
+  border: 1px solid #9f9c9c;
+  margin-inline: 20%;
+
+}
+a.home, a.anime, a.movies{
+
+ text-align: center;
+ background: rgb(16, 5, 77);
+ color: rgb(255, 255, 255);
+}
+
+
+a.assistir{background: rgb(4, 45, 76);
+  color: rgb(255, 255, 255);
+
+}
+a.baixar{
+  background: rgb(190, 190, 190);
+  color: black;
+}
